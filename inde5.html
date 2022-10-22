@@ -1,0 +1,13 @@
+<html>
+<head></head>
+<body>
+<p id="power" >enter your age and get the the value of how many days</p>
+<input type="text" id ="name"></input>
+<button onclick="myname()"id="two">submit</button>
+<script>
+function myname(){
+let x=parseInt(document.getElementById('name').value);
+let y=x*365;
+document.getElementById("power").innerHTML=y;
+}
+</script>
